@@ -1,0 +1,40 @@
+/* In your CSS file */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    max-width: 18rem;
+    max-height: 450px;
+    overflow: hidden;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 40px 40px 0 0;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .options-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .option-select {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .total-price {
+    flex: 1;
+    font-size: 1.2rem;
+    text-align: right;
+  }
+  
